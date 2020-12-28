@@ -1,0 +1,58 @@
+html {
+    margin: 0;
+    padding: 0;
+ }
+ body {
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.88889;
+    color: #555753;
+    background: #fff url(./下載.jfif) no-repeat bottom right;
+    margin: 0;
+    padding: 0;
+ }
+ h1 {
+   text-align: center; 
+   background: blue;
+ }
+
+ h2 {
+   background: red;
+   text-align: center;
+ }
+
+ h3:hover {
+   background: chartreuse;
+ }
+
+@keyframes typing {
+  from {width: 0}
+}
+
+ p {
+   width: 100%;
+   overflow: hidden;
+   white-space: nowrap;
+   animation: typing 3s steps(50)
+ }
+
+.sidebar {
+  width: 100%;
+  background: rgb(85, 200, 235) ;
+  position: absolute;
+  top: 150%;
+}
+
+.design-selection,
+.design-archives,
+.zen-resources
+ {
+  float:left;
+}
+
+.sidebar h3 {
+  text-align: center;
+}
+
+.sidebar h3:hover {
+  background: none
+}
